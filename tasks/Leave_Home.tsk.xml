@@ -1,0 +1,32 @@
+<TaskerData sr="" dvi="1" tv="4.2u3m">
+	<Task sr="task21">
+		<cdate>1394891311303</cdate>
+		<edate>1394925146468</edate>
+		<id>21</id>
+		<nme>Leave Home</nme>
+		<pri>10</pri>
+		<Action sr="act0" ve="3">
+			<code>425</code>
+			<Int sr="arg0" val="0"/>
+		</Action>
+		<Action sr="act1" ve="3">
+			<code>310</code>
+			<Int sr="arg0" val="0"/>
+		</Action>
+		<Action sr="act2" ve="3">
+			<code>810</code>
+			<Int sr="arg0" val="174"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+		</Action>
+		<Action sr="act3" ve="3">
+			<code>808</code>
+			<Int sr="arg0" val="1"/>
+		</Action>
+		<Action sr="act4" ve="3">
+			<code>822</code>
+			<Int sr="arg0" val="1"/>
+		</Action>
+	</Task>
+</TaskerData>
