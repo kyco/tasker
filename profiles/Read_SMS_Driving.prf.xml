@@ -1,0 +1,41 @@
+<TaskerData sr="" dvi="1" tv="4.2u3m">
+	<Profile sr="prof34" ve="2">
+		<cdate>1396129843649</cdate>
+		<clp>true</clp>
+		<edate>1396165805524</edate>
+		<id>34</id>
+		<mid0>33</mid0>
+		<nme>Read SMS Driving</nme>
+		<Event sr="con0" ve="2">
+			<code>7</code>
+			<pri>0</pri>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3"/>
+		</Event>
+		<State sr="con1">
+			<code>165</code>
+			<Str sr="arg0" ve="3">%DRIVING</Str>
+			<Int sr="arg1" val="5"/>
+			<Str sr="arg2" ve="3">1</Str>
+		</State>
+	</Profile>
+	<Task sr="task33">
+		<cdate>1396129745967</cdate>
+		<edate>1396131145141</edate>
+		<id>33</id>
+		<nme>Read SMS</nme>
+		<Action sr="act0" ve="3">
+			<code>559</code>
+			<Str sr="arg0" ve="3">SMS from, %SMSRN
+Message:
+%SMSRB</Str>
+			<Str sr="arg1" ve="3">com.google.android.tts:eng-gbr</Str>
+			<Int sr="arg2" val="3"/>
+			<Int sr="arg3" val="5"/>
+			<Int sr="arg4" val="4"/>
+			<Int sr="arg5" val="1"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+	</Task>
+</TaskerData>

@@ -1,0 +1,12 @@
+<TaskerData sr="" dvi="1" tv="4.2u3m">
+	<Task sr="task6">
+		<cdate>1394959905283</cdate>
+		<edate>1394972322651</edate>
+		<id>6</id>
+		<nme>Vibrate Only</nme>
+		<Action sr="act0" ve="3">
+			<code>310</code>
+			<Int sr="arg0" val="1"/>
+		</Action>
+	</Task>
+</TaskerData>

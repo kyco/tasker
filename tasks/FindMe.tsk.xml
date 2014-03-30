@@ -1,0 +1,43 @@
+<TaskerData sr="" dvi="1" tv="4.2u3m">
+	<Task sr="task31">
+		<cdate>1396129386789</cdate>
+		<edate>1396172381321</edate>
+		<id>31</id>
+		<nme>FindMe</nme>
+		<pri>10</pri>
+		<Action sr="act0" ve="3">
+			<code>307</code>
+			<Int sr="arg0" val="15"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act1" ve="3">
+			<code>445</code>
+			<Str sr="arg0" ve="3">Music/Rush (Original Motion Picture Soundtrack)/19 Mount Fuji.mp3</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="3"/>
+		</Action>
+		<Action sr="act2" ve="3">
+			<code>523</code>
+			<Str sr="arg0" ve="3">Find Me</Str>
+			<Str sr="arg1" ve="3"/>
+			<Img sr="arg2" ve="2">
+				<nme>hd_aaa_nixx_bolt</nme>
+			</Img>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<ListElementItem sr="item0">
+				<label>Stop Music</label>
+				<Action sr="action" ve="3">
+					<code>449</code>
+					<Int sr="arg0" val="0"/>
+				</Action>
+				<Img sr="icon" ve="2">
+					<nme>hl_av_stop</nme>
+				</Img>
+			</ListElementItem>
+		</Action>
+	</Task>
+</TaskerData>

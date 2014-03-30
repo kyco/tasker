@@ -1,0 +1,12 @@
+<TaskerData sr="" dvi="1" tv="4.2u3m">
+	<Task sr="task8">
+		<cdate>1394960029724</cdate>
+		<edate>1394960036470</edate>
+		<id>8</id>
+		<nme>Sound Profile Normal</nme>
+		<Action sr="act0" ve="3">
+			<code>310</code>
+			<Int sr="arg0" val="0"/>
+		</Action>
+	</Task>
+</TaskerData>

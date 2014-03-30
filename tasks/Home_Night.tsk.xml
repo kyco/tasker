@@ -1,7 +1,7 @@
 <TaskerData sr="" dvi="1" tv="4.2u3m">
 	<Task sr="task3">
 		<cdate>1394891311303</cdate>
-		<edate>1394972256575</edate>
+		<edate>1396165324473</edate>
 		<id>3</id>
 		<nme>Home Night</nme>
 		<pri>10</pri>
@@ -14,19 +14,39 @@
 			<Int sr="arg0" val="1"/>
 		</Action>
 		<Action sr="act2" ve="3">
+			<code>808</code>
+			<Int sr="arg0" val="0"/>
+		</Action>
+		<Action sr="act3" ve="3">
 			<code>810</code>
 			<Int sr="arg0" val="50"/>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="1"/>
 		</Action>
-		<Action sr="act3" ve="3">
-			<code>808</code>
-			<Int sr="arg0" val="0"/>
-		</Action>
 		<Action sr="act4" ve="3">
 			<code>822</code>
 			<Int sr="arg0" val="0"/>
+		</Action>
+		<Action sr="act5" ve="3">
+			<code>11820</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.intangibleobject.securesettings.plugin.extra.BLURB>Clear Password</com.intangibleobject.securesettings.plugin.extra.BLURB>
+					<com.intangibleobject.securesettings.plugin.extra.BLURB-type>java.lang.String</com.intangibleobject.securesettings.plugin.extra.BLURB-type>
+					<com.intangibleobject.securesettings.plugin.extra.ENABLED>false</com.intangibleobject.securesettings.plugin.extra.ENABLED>
+					<com.intangibleobject.securesettings.plugin.extra.ENABLED-type>java.lang.Boolean</com.intangibleobject.securesettings.plugin.extra.ENABLED-type>
+					<com.intangibleobject.securesettings.plugin.extra.SETTING>password_reset</com.intangibleobject.securesettings.plugin.extra.SETTING>
+					<com.intangibleobject.securesettings.plugin.extra.SETTING-type>java.lang.String</com.intangibleobject.securesettings.plugin.extra.SETTING-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Clear Password</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.intangibleobject.securesettings.plugin</Str>
+			<Str sr="arg2" ve="3">Secure Settings</Str>
+			<Int sr="arg3" val="0"/>
 		</Action>
 	</Task>
 </TaskerData>

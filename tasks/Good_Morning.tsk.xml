@@ -1,10 +1,16 @@
 <TaskerData sr="" dvi="1" tv="4.2u3m">
 	<Task sr="task25">
 		<cdate>1346559128768</cdate>
-		<edate>1394955675779</edate>
+		<edate>1396164565395</edate>
 		<id>25</id>
-		<nme>Fetch and say Weather</nme>
+		<nme>Good Morning</nme>
 		<pri>10</pri>
+		<Kid sr="Kid">
+			<launchID>25</launchID>
+			<pkg>com.morning</pkg>
+			<vnme>1.0</vnme>
+			<vnum>3</vnum>
+		</Kid>
 		<Action sr="act0" ve="3">
 			<code>118</code>
 			<Str sr="arg0" ve="3">http://ical.wunderground.com/auto/ical/global/stations/68262?units=metric</Str>
@@ -36,8 +42,8 @@
 		</Action>
 		<Action sr="act4" ve="3">
 			<code>559</code>
-			<Str sr="arg0" ve="3">Good morning sir, here is the weather report for %result21</Str>
-			<Str sr="arg1" ve="3">eng-gbr</Str>
+			<Str sr="arg0" ve="3">Good morning, it's %TIME. The weather report for %result21</Str>
+			<Str sr="arg1" ve="3">com.google.android.tts:eng-gbr</Str>
 			<Int sr="arg2" val="3"/>
 			<Int sr="arg3" val="5"/>
 			<Int sr="arg4" val="4"/>
@@ -46,6 +52,7 @@
 		</Action>
 		<Action sr="act5" ve="3">
 			<code>20</code>
+			<on>false</on>
 			<App sr="arg0">
 				<appClass>com.google.apps.dots.android.app.activity.CurrentsStartActivity</appClass>
 				<appPkg>com.google.android.apps.magazines</appPkg>

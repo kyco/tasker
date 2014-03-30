@@ -1,0 +1,69 @@
+<TaskerData sr="" dvi="1" tv="4.2u3m">
+	<Profile sr="prof7" ve="2">
+		<cdate>1394959990338</cdate>
+		<clp>true</clp>
+		<edate>1395431322817</edate>
+		<id>7</id>
+		<mid0>6</mid0>
+		<mid1>8</mid1>
+		<nme>Social Vibrate</nme>
+		<App sr="con0" ve="2">
+			<cls0>com.cloudmagic.android.HomeScreenActivity</cls0>
+			<cls1>com.lge.email.ui.setupwizard.Welcome</cls1>
+			<cls2>com.google.android.talk.SigningInActivity</cls2>
+			<cls3>com.lge.camera.CameraAppLauncher</cls3>
+			<cls4>com.fsck.k9.activity.Accounts</cls4>
+			<cls5>com.linkedin.android.authenticator.LaunchActivity</cls5>
+			<cls6>com.facebook.orca.auth.StartScreenActivity</cls6>
+			<cls7>com.android.mms.ui.ConversationList</cls7>
+			<cls8>com.Slack.Slack.Login.FSlackTryLogin</cls8>
+			<cls9>com.whatsapp.Main</cls9>
+			<label0>CloudMagic</label0>
+			<label1>E-Mail</label1>
+			<label2>Hangouts</label2>
+			<label3>Kamera</label3>
+			<label4>K-9 Mail</label4>
+			<label5>LinkedIn</label5>
+			<label6>Messenger</label6>
+			<label7>Nachrichten</label7>
+			<label8>Slack</label8>
+			<label9>WhatsApp</label9>
+			<pkg0>com.cloudmagic.mail</pkg0>
+			<pkg1>com.lge.email</pkg1>
+			<pkg2>com.google.android.talk</pkg2>
+			<pkg3>com.lge.camera</pkg3>
+			<pkg4>com.fsck.k9</pkg4>
+			<pkg5>com.linkedin.android</pkg5>
+			<pkg6>com.facebook.orca</pkg6>
+			<pkg7>com.android.mms</pkg7>
+			<pkg8>com.Slack</pkg8>
+			<pkg9>com.whatsapp</pkg9>
+		</App>
+		<Time sr="con1">
+			<fh>6</fh>
+			<fm>0</fm>
+			<th>22</th>
+			<tm>0</tm>
+		</Time>
+	</Profile>
+	<Task sr="task6">
+		<cdate>1394959905283</cdate>
+		<edate>1394972322651</edate>
+		<id>6</id>
+		<nme>Vibrate Only</nme>
+		<Action sr="act0" ve="3">
+			<code>310</code>
+			<Int sr="arg0" val="1"/>
+		</Action>
+	</Task>
+	<Task sr="task8">
+		<cdate>1394960029724</cdate>
+		<edate>1394960036470</edate>
+		<id>8</id>
+		<nme>Sound Profile Normal</nme>
+		<Action sr="act0" ve="3">
+			<code>310</code>
+			<Int sr="arg0" val="0"/>
+		</Action>
+	</Task>
+</TaskerData>

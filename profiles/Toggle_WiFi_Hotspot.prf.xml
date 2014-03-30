@@ -1,0 +1,60 @@
+<TaskerData sr="" dvi="1" tv="4.2u3m">
+	<Profile sr="prof27" ve="2">
+		<cdate>1396104781440</cdate>
+		<clp>true</clp>
+		<edate>1396170976729</edate>
+		<id>27</id>
+		<limit>true</limit>
+		<mid0>28</mid0>
+		<nme>Toggle WiFi Hotspot</nme>
+		<State sr="con0">
+			<code>13232</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>04B7AB62842A80 - erneutes einlessen</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<se.badaccess.local.nfc.extra.ENABLE_IMMEDIATE_RESCAN>true</se.badaccess.local.nfc.extra.ENABLE_IMMEDIATE_RESCAN>
+					<se.badaccess.local.nfc.extra.ENABLE_IMMEDIATE_RESCAN-type>java.lang.Boolean</se.badaccess.local.nfc.extra.ENABLE_IMMEDIATE_RESCAN-type>
+					<se.badaccess.local.nfc.extra.FIRST_SCAN>true</se.badaccess.local.nfc.extra.FIRST_SCAN>
+					<se.badaccess.local.nfc.extra.FIRST_SCAN-type>java.lang.Boolean</se.badaccess.local.nfc.extra.FIRST_SCAN-type>
+					<se.badaccess.locale.nfc.extra.INT_VERSION_CODE>4</se.badaccess.locale.nfc.extra.INT_VERSION_CODE>
+					<se.badaccess.locale.nfc.extra.INT_VERSION_CODE-type>java.lang.Integer</se.badaccess.locale.nfc.extra.INT_VERSION_CODE-type>
+					<se.badaccess.locale.nfc.extra.NFC_TAG>04B7AB62842A80</se.badaccess.locale.nfc.extra.NFC_TAG>
+					<se.badaccess.locale.nfc.extra.NFC_TAG-type>java.lang.String</se.badaccess.locale.nfc.extra.NFC_TAG-type>
+					<se.badaccess.locale.nfc.extra.READ_NFC_TAG></se.badaccess.locale.nfc.extra.READ_NFC_TAG>
+					<se.badaccess.locale.nfc.extra.READ_NFC_TAG-type>java.lang.String</se.badaccess.locale.nfc.extra.READ_NFC_TAG-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">se.badaccess.locale.nfc</Str>
+			<Str sr="arg2" ve="3">Locale NFC Plugin</Str>
+		</State>
+	</Profile>
+	<Task sr="task28">
+		<cdate>1396104900145</cdate>
+		<edate>1396106860037</edate>
+		<id>28</id>
+		<nme>WiFi Hotspot Toggle</nme>
+		<Action sr="act0" ve="3">
+			<code>11820</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.intangibleobject.securesettings.plugin.extra.BLURB>Wifi Hotspot Toggle</com.intangibleobject.securesettings.plugin.extra.BLURB>
+					<com.intangibleobject.securesettings.plugin.extra.BLURB-type>java.lang.String</com.intangibleobject.securesettings.plugin.extra.BLURB-type>
+					<com.intangibleobject.securesettings.plugin.extra.SETTING>wifi_hotspot</com.intangibleobject.securesettings.plugin.extra.SETTING>
+					<com.intangibleobject.securesettings.plugin.extra.SETTING-type>java.lang.String</com.intangibleobject.securesettings.plugin.extra.SETTING-type>
+					<com.intangibleobject.securesettings.plugin.extra.TOGGLE>true</com.intangibleobject.securesettings.plugin.extra.TOGGLE>
+					<com.intangibleobject.securesettings.plugin.extra.TOGGLE-type>java.lang.Boolean</com.intangibleobject.securesettings.plugin.extra.TOGGLE-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Wifi Hotspot Toggle</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.intangibleobject.securesettings.plugin</Str>
+			<Str sr="arg2" ve="3">Secure Settings</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+	</Task>
+</TaskerData>
