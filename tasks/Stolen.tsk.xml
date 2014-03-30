@@ -51,7 +51,7 @@ WiFi:
 					<bodyfile-type>java.lang.String</bodyfile-type>
 					<cc></cc>
 					<cc-type>java.lang.String</cc-type>
-					<com.twofortyfouram.locale.intent.extra.BLURB>kyluke.m@gmail.com / kyluke.m@gmail.com / phone stolen</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB>your@email.com / your@email.com / phone stolen</com.twofortyfouram.locale.intent.extra.BLURB>
 					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
 					<com.yourcompany.yourcondition.extra.INT_VERSION_CODE>4052</com.yourcompany.yourcondition.extra.INT_VERSION_CODE>
 					<com.yourcompany.yourcondition.extra.INT_VERSION_CODE-type>java.lang.Integer</com.yourcompany.yourcondition.extra.INT_VERSION_CODE-type>
@@ -61,11 +61,11 @@ WiFi:
 					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
 					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
 					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
-					<password>goptukrrlhcivlpz</password>
+					<password>email_password</password>
 					<password-type>java.lang.String</password-type>
-					<receiver>kyluke.m@gmail.com</receiver>
+					<receiver>your@email.com</receiver>
 					<receiver-type>java.lang.String</receiver-type>
-					<sender>kyluke.m@gmail.com</sender>
+					<sender>your@email.com</sender>
 					<sender-type>java.lang.String</sender-type>
 					<smtphost>smtp.gmail.com</smtphost>
 					<smtphost-type>java.lang.String</smtphost-type>
@@ -75,7 +75,7 @@ WiFi:
 					<subject-type>java.lang.String</subject-type>
 					<useHTML>false</useHTML>
 					<useHTML-type>java.lang.Boolean</useHTML-type>
-					<username>kyluke.m@gmail.com</username>
+					<username>your@email.com</username>
 					<username-type>java.lang.String</username-type>
 				</Vals>
 			</Bundle>
