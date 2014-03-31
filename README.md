@@ -108,7 +108,7 @@ Task:
 
  - Take photo using front camera
  - Get GPS Location
- - Set variable %STOLEN tp:
+ - Set variable %STOLEN to:
 	 - Date: %TIME - %DATE
 	 - Battery: %BATT%
 	 - Location: %LOC
